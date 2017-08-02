@@ -44,3 +44,6 @@ $ git remote add origin git@github.com:Gsmsu/learngit.git
 
 $ git checkout -b feature1
 Switched to a new branch 'feature1'
+
+切换到master分支
+git checkout master
