@@ -8,3 +8,8 @@ cd E:  mkdir learngit
 cd learngit
 
 使用 git init 把这个目录交给git可以管理的仓库
+git add <filename> 添加(可以添加多个文件)
+git commit -m "添加的注解"
+git status 查看修改的状态
+git diff  查看具体修改的内容
+
