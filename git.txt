@@ -1,0 +1,10 @@
+GIT学习
+linux下的安装git：验证是否安装：git
+(Debuntu linxu)安装git：sudo apt-get install git或者sudo apt-get install git-core
+安装完成后进行设置：git config --global user.name "your name"
+                    git config --global user.email "email@example.com"
+创建一个版本库，选择盘符
+cd E:  mkdir learngit
+cd learngit
+
+使用 git init 把这个目录交给git可以管理的仓库
