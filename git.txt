@@ -37,3 +37,10 @@ $ ssh-keygen -t rsa -C "youremail@example.com"
 
 https://github.com/Gsmsu/studygit.git  Gsmsu
 $ git remote add origin git@github.com:Gsmsu/learngit.git
+
+
+//第二部分学习分支
+准备新的feature1分支，继续我们的新分支开发：
+
+$ git checkout -b feature1
+Switched to a new branch 'feature1'
