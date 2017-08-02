@@ -51,3 +51,6 @@ Switched to a new branch 'feature1'
 切换到master分支
 git checkout master
 
+Git无法执行“快速合并”，只能试图把各自的修改合并起来，但这种合并就可能会有冲突，我们试试看：
+
+$ git merge feature1
