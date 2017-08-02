@@ -39,6 +39,8 @@ https://github.com/Gsmsu/studygit.git  Gsmsu
 $ git remote add origin git@github.com:Gsmsu/learngit.git
 
 
+
+#################################################################
 //第二部分学习分支
 准备新的feature1分支，继续我们的新分支开发：
 
@@ -54,3 +56,20 @@ git checkout master
 Git无法执行“快速合并”，只能试图把各自的修改合并起来，但这种合并就可能会有冲突，我们试试看：
 
 $ git merge feature1
+
+用带参数的git log也可以看到分支的合并情况：
+
+$ git log --graph --pretty=oneline --abbrev-commit
+
+删除feature1分支：
+
+$ git branch -d feature1
+
+
+
+######################################
+如果要强制禁用Fast forward模式，Git就会在merge时生成一个新的commit，这样，从分支历史上就可以看出分支信息。
+
+下面我们实战一下--no-ff方式的git merge：
+
+首先，仍然创建并切换dev分支：
