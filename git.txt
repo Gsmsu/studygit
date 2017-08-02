@@ -20,3 +20,10 @@ git reset --hard HEAD^ 返回上一个版本 多个^返回上上……版本 太
 git reset --hard 版本号
 
 git reflog  用来记录你的每一次命令
+
+暂存区stage，分支 master（指向master的HEAD）
+工作区add到stage ，commit 到master
+
+git 只负责把暂存区的文件提交到master（分支）
+
+撤销修改 ：git checkout --git.txt
